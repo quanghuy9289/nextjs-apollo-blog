@@ -1,5 +1,5 @@
 import React from "react";
-import Articles from "../components/Articles";
+import Articles from "../components/articles";
 import Query from "../components/query";
 import ARTICLES_QUERY from "../apollo/queries/article/articles";
 
@@ -9,7 +9,7 @@ const Home = () => {
       <div className="uk-section">
         <div className="uk-container uk-container-large">
           <h1>Strapi blog</h1>
-          <Query query={ARTICLES_QUERY}>
+          <Query query={ARTICLES_QUERY} id={null}>
             {({ data: { articles } }) => {
               return <Articles articles={articles} />;
             }}
