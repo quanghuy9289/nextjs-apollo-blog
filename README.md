@@ -32,4 +32,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ---
 
 Front-end deploy: https://nextjs-apollo-blog.now.sh/
-Back-end deploy: https://blog-server-strapi.herokuapp.com/admin/
+
+Back-end deploy: https://blog-server-strapi.herokuapp.com/admin/ (acc: admin/admin123)
